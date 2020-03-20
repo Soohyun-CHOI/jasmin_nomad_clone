@@ -278,6 +278,7 @@ footer {
     margin-right: 30px;
     transition-duration: 0.5s;
     font-family: var(--englishFont);
+    font-size: 14px;
 }
 
 .sns:hover {
