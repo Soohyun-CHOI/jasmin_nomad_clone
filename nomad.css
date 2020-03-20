@@ -104,7 +104,7 @@ header {
 /*------------------MAIN----------------------*/
 
 main {
-    width: 100%; height: 550px;
+    width: 100%; height: 600px;
     background-color: var(--mainColor);
     display: flex;
     flex-direction: column;
@@ -119,7 +119,7 @@ main {
 }
 
 .main-title {
-    margin-top: 170px;
+    margin-top: 200px;
     font-family: var(--englishFont);
     font-size: 36px;
     color: white;
