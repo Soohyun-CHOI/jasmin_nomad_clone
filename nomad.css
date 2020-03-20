@@ -1,7 +1,7 @@
-div {
-    border: 1px solid #cccccc;
-    box-sizing: border-box;
-}
+/*div {*/
+/*    border: 1px solid #cccccc;*/
+/*    box-sizing: border-box;*/
+/*}*/
 
 :root {
     --mainColor: #333333;
@@ -250,5 +250,76 @@ main img {
 
 .view-all-courses:hover {
     transform: translateY(-3px);
+    cursor: pointer;
+}
+
+
+
+/*-----------------FOOTER--------------*/
+
+footer {
+    background-color: var(--mainColor);
+    color: #cccccc;
+}
+
+.footer-top-wrap {
+    border-bottom: 1px solid #cccccc;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.sns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    transition-duration: 0.5s;
+    font-family: var(--englishFont);
+}
+
+.sns:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.sns:last-child {
+    margin: 0;
+}
+
+.sns .icon {
+    font-size: 40px;
+}
+
+.sns .number {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    padding: 0 var(--mainMargin);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 14px;
+}
+
+.bottom-unit {
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+.bottom-unit:nth-child(2) div {
+    text-align: center;
+}
+
+.bottom-unit:last-child div {
+    text-align: right;
+}
+
+.click div:hover {
+    color: white;
     cursor: pointer;
 }
